@@ -26,7 +26,7 @@ export class QuizComponent implements OnInit {
   quiz;
   quizResult;
   numberCorrect = 0;
-  apiURL = 'http://localhost:3000/api/summary';
+  apiURL = '/api/summary';
   summary = {
     userId: '',
     title: '',
