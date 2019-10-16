@@ -27,7 +27,7 @@ export class PresentationService {
       this.routeId = params.get('id');
     });
 
-    const apiURL = `/${this.routeId}`;
+    const apiURL = `/api/presentations/${this.routeId}`;
     return this.http.get(apiURL);
   }
 
