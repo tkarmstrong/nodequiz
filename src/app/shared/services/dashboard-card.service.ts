@@ -18,7 +18,7 @@ export class DashboardCardService {
   constructor(private http: HttpClient) { }
 
   get() {
-    const apiBaseURL = './api/cards';
+    const apiBaseURL = '/api/cards';
     return this.http.get(apiBaseURL);
   }
 }

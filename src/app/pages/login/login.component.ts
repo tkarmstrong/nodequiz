@@ -43,7 +43,7 @@ export class LoginComponent implements OnInit {
   }
 
   onSubmit() {
-    const apiBaseURL = 'http://localhost:3000/api/user/';
+    const apiBaseURL = '/api/user/';
     // tslint:disable-next-line: no-string-literal
     const userId = this.form.controls['userId'].value;
 

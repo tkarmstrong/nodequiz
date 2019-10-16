@@ -18,7 +18,7 @@ export class CumulativeSummaryService {
   constructor(private http: HttpClient) { }
 
   get() {
-    const apiURL = `./api/summary`;
+    const apiURL = `/api/summary`;
     return this.http.get(apiURL);
   }
 }

@@ -24,7 +24,7 @@ export class QuizService {
       this.routeId = params.get('id');
     });
 
-    const apiURL = `./api/quizzes/${this.routeId}`;
+    const apiURL = `/api/quizzes/${this.routeId}`;
     return this.http.get(apiURL);
   }
 }
